@@ -1,9 +1,20 @@
 ---
-title: "My Website"
+title: "Kynan Delaney"
+
+links:
+  - label: Twitter
+    url: "https://twitter.com/KynanDelaney"
+  - label: Google scholar
+    url: "https://scholar.google.co.uk/citations?user=a3lQoLMAAAAJ&hl=en"
+  - label: Github
+    url: "https://github.com/KynanDelaney"
+
 ---
 
-Hello, Website!
+\
 
-For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
+More to follow!
 
-Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
+\
+
+![A distinctive pattern on the elytra of a beetle captured in 2021](images/beetle.jpeg)

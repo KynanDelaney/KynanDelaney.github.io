@@ -10,3 +10,6 @@ navbar:
       href: phd_projects.html
 
 output_dir: "docs"
+output:
+  html_document:
+    theme: yeti
