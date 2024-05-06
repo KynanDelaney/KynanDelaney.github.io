@@ -6,5 +6,7 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "PhD Projects"
+      href: phd_projects.html
 
 output_dir: "docs"
