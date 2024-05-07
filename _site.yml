@@ -1,6 +1,7 @@
 name: "my-website"
 navbar:
   title: ""
+  type: inverse
   left:
     - icon: fa-home
       href: index.html
