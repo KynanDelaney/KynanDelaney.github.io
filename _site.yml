@@ -2,14 +2,22 @@ name: "my-website"
 navbar:
   title: ""
   left:
-    - text: "Home"
+    - icon: fa-home
       href: index.html
     - text: "About"
       href: about.html
     - text: "PhD Projects"
       href: phd_projects.html
-
-output_dir: "docs"
+  right:
+    - icon: fa-twitter
+      href: https://twitter.com/KynanDelaney
+    - icon: fa-github
+      href: https://github.com/KynanDelaney
+    - icon: fa-google
+      href: https://scholar.google.co.uk/citations?user=a3lQoLMAAAAJ&hl=en
 output:
   html_document:
     theme: yeti
+    includes:
+      after_body: footer.html
+output_dir: "docs"
