@@ -6,8 +6,12 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "PhD Projects"
-      href: phd_projects.html
+    - text: "Projects"
+      menu:
+        - text: "Coding and Analysis"
+          href: coding_projects.html
+        - text: "Practical methods and 3D printing"
+          href: practical_projects.html
   right:
     - icon: fa-twitter
       href: https://twitter.com/KynanDelaney
