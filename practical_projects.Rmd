@@ -3,7 +3,7 @@ title: "3D Design and Practical Projects"
 ---
 
 More about my projects.
-flight mill versions 1 and two.
+flight mill versions one and two.
 
 Raspberry pi cases
 

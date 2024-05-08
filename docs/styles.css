@@ -1,0 +1,11 @@
+/* Navbar settings */
+
+.navbar {
+  font-size: 20px; /* Adjust this value to your preferred font size */
+  padding-top: 15px; /* Adjust this value to your preferred padding */
+  padding-bottom: 15px;
+}
+
+.dropdown-content {
+  font-size: 18px;
+}

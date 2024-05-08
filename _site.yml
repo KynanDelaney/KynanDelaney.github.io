@@ -1,9 +1,11 @@
 name: "my-website"
 navbar:
   title: ""
+  type: inverse
   left:
-    - icon: fa-home
+    - text: "Home"
       href: index.html
+      icon: fa-home
     - text: "About"
       href: about.html
     - text: "Projects"
@@ -22,6 +24,10 @@ navbar:
 output:
   html_document:
     theme: yeti
+    css: styles.css
+    toc: yes
+    toc_float:
+      collapsed: true
     includes:
       after_body: footer.html
 output_dir: "docs"
