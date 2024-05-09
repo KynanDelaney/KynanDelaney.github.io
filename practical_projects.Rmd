@@ -9,4 +9,33 @@ Raspberry pi cases
 
 \
 
+```{r, setup, echo=FALSE, message = FALSE, warning=FALSE}
+options(rgl.useNULL = TRUE) # Suppress the separate window.
+library(rgl)
+```
+
+```{r, echo=FALSE, message = FALSE, warning=FALSE}
+
+
+# Read the .obj file
+obj_file <- readOBJ("images/Torus.obj", material = list(color = "grey"))
+open3d(silent = T)
+shade3d(obj_file)
+rglwidget(minimal = T)
+```
+
+\
+
+
+```{r, echo=FALSE, message = FALSE, warning=FALSE}
+options(rgl.useNULL = TRUE) # Suppress the separate window.
+library(rgl)
+
+# Read the .obj file
+obj_file <- readOBJ("images/Torus.obj", material = list(color = "purple"))
+open3d(silent = T)
+shade3d(obj_file)
+rglwidget(minimal = T)
+```
+
 ------
