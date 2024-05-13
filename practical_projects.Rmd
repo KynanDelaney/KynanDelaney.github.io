@@ -15,27 +15,32 @@ library(rgl)
 ```
 
 ```{r, echo=FALSE, message = FALSE, warning=FALSE}
-
-
 # Read the .obj file
-obj_file <- readOBJ("images/Torus.obj", material = list(color = "grey"))
+obj_file <- readOBJ("images/Torus.obj", material = list(color = "darkgrey"))
+# initialise a plot space with no text update
 open3d(silent = T)
+# plot object
 shade3d(obj_file)
-rglwidget(minimal = T)
+bg3d("lightgrey")  # set background as grey, makes manipulating object easier
+rglwidget()
 ```
 
 \
 
+------
 
-```{r, echo=FALSE, message = FALSE, warning=FALSE}
-options(rgl.useNULL = TRUE) # Suppress the separate window.
-library(rgl)
+\
 
+
+```{r, echo=FALSE, message = FALSE, warning=FALSE, fig.align = 'center'}
 # Read the .obj file
 obj_file <- readOBJ("images/Torus.obj", material = list(color = "purple"))
-open3d(silent = T)
+# initialise a plot space with no text update
+open3d(silent = T) 
+# plot object
 shade3d(obj_file)
-rglwidget(minimal = T)
+bg3d("lightgrey")  # set background as grey, makes manipulating object easier
+rglwidget()
 ```
 
 ------

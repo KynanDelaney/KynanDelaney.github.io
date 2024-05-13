@@ -25,9 +25,6 @@ output:
   html_document:
     theme: yeti
     css: styles.css
-    toc: yes
-    toc_float:
-      collapsed: true
     includes:
       after_body: footer.html
 output_dir: "docs"
