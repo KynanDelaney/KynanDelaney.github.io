@@ -7,7 +7,25 @@ title: "3D Design and Practical Projects"
 ```{r, setup, echo=FALSE, message = FALSE, warning=FALSE}
 options(rgl.useNULL = TRUE) # Suppress the separate window.
 library(rgl)
+library(embedr)
 ```
+
+# Flightmill for measuring insect flight behaviours
+
+A multi-chambered mill that uses a Raspberry pi configured as a data-logger. This set-up records data from optical sensors that are triggered by the rotation of arms to which burying beetles are mounted. The aim is to monitor the activity of beetles mounted in each chamber for several hours at a time.
+
+``` {=html}
+<video controls loop>
+  <source src="images/flightmill_video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+```
+
+\
+
+------
+
+\
 
 # Screen Case for a Pi 2B
 
