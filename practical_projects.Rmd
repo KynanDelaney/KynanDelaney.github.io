@@ -2,11 +2,6 @@
 title: "3D Design and Practical Projects"
 ---
 
-More about my projects.
-flight mill versions one and two.
-
-Raspberry pi cases
-
 \
 
 ```{r, setup, echo=FALSE, message = FALSE, warning=FALSE}
@@ -14,14 +9,20 @@ options(rgl.useNULL = TRUE) # Suppress the separate window.
 library(rgl)
 ```
 
+# Screen Case for a Pi 2B
+
+This project is for a smart clock built with a Raspberry Pi 2B and a [3.5" touchscreen](http://www.lcdwiki.com/3.5inch_RPi_Display). This case has three parts (base, lid, and stand) that I designed in FreeCAD 0.21.0. The most basic implementation idea is to have a dedicated display for local bus times and weather updates. Ultimately, it would be fun to tie in some sensors running on a Pi Pico W or Pi Zero 2W to report on conditions in the home or lab. Programming notes to follow.
+
 ```{r, echo=FALSE, message = FALSE, warning=FALSE}
 # Read the .obj file
-obj_file <- readOBJ("images/Torus.obj", material = list(color = "darkgrey"))
+obj_file <- readOBJ("images/case_base_lid_stand.obj", 
+                    material = list(color = "darkgrey", specular = "black"))
 # initialise a plot space with no text update
 open3d(silent = T)
+
 # plot object
 shade3d(obj_file)
-bg3d("lightgrey")  # set background as grey, makes manipulating object easier
+bg3d(color = "lightgrey")  # set background as grey, makes manipulating object easier
 rglwidget()
 ```
 
@@ -31,16 +32,69 @@ rglwidget()
 
 \
 
+# Tower Case for a Pi 4B
+
+This project was intended to tackle some cooling issues I was having with the Raspberry Pi 4B, hence the top and rear rails for 40mm fans. Both side panels are removable, one on a slide system, the other with screws. The case includes space underneath the main Pi board for a [2-cell UPS board](https://thepihut.com/products/uninterruptible-power-supply-ups-hat-b-for-raspberry-pi), a power switch, and a mini OLED screen for system status updates.
 
 ```{r, echo=FALSE, message = FALSE, warning=FALSE, fig.align = 'center'}
 # Read the .obj file
-obj_file <- readOBJ("images/Torus.obj", material = list(color = "purple"))
+obj_file <- readOBJ("images/pi_tower_case.obj", material = list(color = "darkgrey"))
 # initialise a plot space with no text update
 open3d(silent = T) 
+
 # plot object
-shade3d(obj_file)
+shade3d(obj_file, specular = "black", color = "darkgrey")
 bg3d("lightgrey")  # set background as grey, makes manipulating object easier
+
 rglwidget()
 ```
 
+\
+
 ------
+
+\
+
+
+# Wind-tunnel case for Pi Zero
+
+This is a small case for the Raspberry Pi Zero or Zero 2W. It runs a 40mm fan on the left, blowing across the main board. This is overkill for cooling, but very cute and satisfying. The front panel is a slide, giving access to GPIO pins if necessary. Otherwise, this is a great case for safely running a tiny Pi board as a mini PC.
+
+```{r, echo=FALSE, message = FALSE, warning=FALSE, fig.align = 'center'}
+# Read the .obj file
+obj_file <- readOBJ("images/pi_zero_case_v3.1.obj", material = list(color = "darkgrey"))
+# initialise a plot space with no text update
+open3d(silent = T) 
+
+# plot object
+shade3d(obj_file, specular = "black", color = "darkgrey")
+bg3d("lightgrey")  # set background as grey, makes manipulating object easier
+
+rglwidget()
+```
+
+
+\
+
+------
+
+\
+
+
+# Coffee Grinder Stand
+
+A simple stand for the [Hario Skerton](https://www.hario.co.uk/products/hario-skerton-plus-ceramic-coffee-grinder) coffee grinder. This just solved a problem in my kitchen where the top of the grinder kept falling over and everything looked messy. The grinder sits into the raised column and the base jar sits in the raised bed.
+
+```{r, echo=FALSE, message = FALSE, warning=FALSE, fig.align = 'center'}
+# Read the .obj file
+obj_file <- readOBJ("images/coffee_grinder_stand.obj", material = list(color = "darkgrey"))
+# initialise a plot space with no text update
+open3d(silent = T) 
+
+# plot object
+shade3d(obj_file, specular = "black", color = "darkgrey")
+bg3d("lightgrey")  # set background as grey, makes manipulating object easier
+
+rglwidget()
+```
+
