@@ -13,6 +13,7 @@ This project extended previous computer vision methods and software packages (pa
 \
 
 ![The GUI for my ID-matching pipeline.](images/gui_example.svg)
+
 \
 
 
