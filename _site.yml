@@ -1,0 +1,31 @@
+name: "my-website"
+navbar:
+  title: ""
+  left:
+    - text: "Home"
+      href: index.html
+      icon: fa-home
+    - text: "About me"
+      href: about.html
+    - text: "Projects"
+      menu:
+        - text: "Coding and Analysis"
+          href: coding_projects.html
+        - text: "Practical methods and 3D printing"
+          href: practical_projects.html
+  right:
+    - icon: fa-twitter
+      href: https://twitter.com/KynanDelaney
+    - icon: fa-github
+      href: https://github.com/KynanDelaney
+    - icon: fa-google
+      href: https://scholar.google.co.uk/citations?user=a3lQoLMAAAAJ&hl=en
+    - icon: fa-code
+      href: https://github.com/KynanDelaney/KynanDelaney.github.io/tree/r-version
+output:
+  html_document:
+    theme: darkly
+    css: styles.css
+    includes:
+      after_body: footer.html
+output_dir: "docs"
