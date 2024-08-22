@@ -7,7 +7,6 @@ title: "3D Design and Practical Projects"
 ```{r, setup, echo=FALSE, message = FALSE, warning=FALSE}
 options(rgl.useNULL = TRUE) # Suppress the separate window.
 library(rgl)
-library(embedr)
 ```
 
 # Flightmill for measuring insect flight behaviours
