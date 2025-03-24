@@ -13,7 +13,7 @@
 
 <title>Coding Projects</title>
 
-<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/darkly.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -253,7 +253,7 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="about.html">About me</a>
+  <a href="CV.html">CV</a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -332,8 +332,12 @@ processed largely automatically, with error exceptions and verbose
 logging of issues at each stage. The pipeline annotates, crops, and
 rotates input images, extracts fingerprints from unique elytral
 patterns, and compares these patterns among thousands of potential
-matches. There is then a GUI written with PyQt for users to assign
-ultimate identities of individuals in the photographic record.</p>
+matches. There is then a GUI written with Shiny for Python for users to
+assign ultimate identities of individuals in the photographic
+record.</p>
+<p><br />
+</p>
+<p>The repository for this project will be shared soon!</p>
 <p><br />
 </p>
 <div class="float">
@@ -363,6 +367,39 @@ alt="A characteristic flight activity trace of a burying beetle." />
 <div class="figcaption">A characteristic flight activity trace of a
 burying beetle.</div>
 </div>
+<p><br />
+</p>
+<p><br />
+</p>
+</div>
+<div id="video-based-motion-tracking-in-an-arena"
+class="section level1">
+<h1>Video-based motion-tracking in an arena</h1>
+<p>This project takes videos of single animals moving in simplified
+arenas (from a relatively fixed vantage point) and calculates both
+movement (in any direction) and motion (any twitching, flailing or
+hopping not associated with a change in position). The first stage of
+the process uses search images to identify the general location of the
+focal individual in each frame of the video. The second stage uses frame
+differencing (restricted to those locations) to identify the focal
+individual’s movement between one frame and the next. These steps
+generate a trace of movement in the 2D arena, which can be viewed and
+interpreted in an R Dashboard.</p>
+<p>This project was designed with automation in mind, but manual
+annotation facilitating corrections for image warp and perspective are
+currently in development.</p>
+<p>Details can be found <a
+href="https://github.com/KynanDelaney/arena-motion-tracking">here</a></p>
+<p><br />
+</p>
+<div class="float">
+<img src="images/movement_dashboard.bmp"
+alt="A characteristic trace of a startle response following disturbance." />
+<div class="figcaption">A characteristic trace of a startle response
+following disturbance.</div>
+</div>
+<p><br />
+</p>
 <p><br />
 </p>
 </div>

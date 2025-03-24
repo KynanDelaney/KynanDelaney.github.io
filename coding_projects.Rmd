@@ -8,14 +8,17 @@ title: "Coding Projects"
 
 \
 
-This project extended previous computer vision methods and software packages (particularly [I3S](https://reijns.com/i3s/)) to identify individuals in a wild population of burying beetles by photographic record alone. I established a protocol for image capture and photo-record processing that allows for thousands of images to be processed largely automatically, with error exceptions and verbose logging of issues at each stage. The pipeline annotates, crops, and rotates input images, extracts fingerprints from unique elytral patterns, and compares these patterns among thousands of potential matches. There is then a GUI written with PyQt for users to assign ultimate identities of individuals in the photographic record.
+This project extended previous computer vision methods and software packages (particularly [I3S](https://reijns.com/i3s/)) to identify individuals in a wild population of burying beetles by photographic record alone. I established a protocol for image capture and photo-record processing that allows for thousands of images to be processed largely automatically, with error exceptions and verbose logging of issues at each stage. The pipeline annotates, crops, and rotates input images, extracts fingerprints from unique elytral patterns, and compares these patterns among thousands of potential matches. There is then a GUI written with Shiny for Python for users to assign ultimate identities of individuals in the photographic record.
+
+\
+
+The repository for this project will be shared soon!
 
 \
 
 ![The GUI for my ID-matching pipeline.](images/gui_example.svg)
 
 \
-
 
 \
 
@@ -26,6 +29,24 @@ This project used a custom built [flightmill](https://kynandelaney.github.io/pra
 \
 
 ![A characteristic flight activity trace of a burying beetle.](images/speed_plot.svg)
+
+\
+
+\
+
+# Video-based motion-tracking in an arena
+
+This project takes videos of single animals moving in simplified arenas (from a relatively fixed vantage point) and calculates both movement (in any direction) and motion (any twitching, flailing or hopping not associated with a change in position). The first stage of the process uses search images to identify the general location of the focal individual in each frame of the video. The second stage uses frame differencing (restricted to those locations) to identify the focal individual's movement between one frame and the next. These steps generate a trace of movement in the 2D arena, which can be viewed and interpreted in an R Dashboard.
+
+This project was designed with automation in mind, but manual annotation facilitating corrections for image warp and perspective are currently in development.
+
+Details can be found [here](https://github.com/KynanDelaney/arena-motion-tracking)
+
+\
+
+![A characteristic trace of a startle response following disturbance.](images/movement_dashboard.bmp)
+
+\
 
 \
 
