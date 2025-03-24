@@ -14,8 +14,8 @@ navbar:
         - text: "Practical methods and 3D printing"
           href: practical_projects.html
   right:
-    - icon: fa-twitter
-      href: https://twitter.com/KynanDelaney
+    - icon: fa-brands fa-bluesky
+      href: https://bsky.app/profile/kynandelaney.bsky.social
     - icon: fa-github
       href: https://github.com/KynanDelaney
     - icon: fa-google
