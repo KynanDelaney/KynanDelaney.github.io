@@ -31,6 +31,10 @@ Your browser does not support the video tag.
 
 This project is for a smart clock built with a Raspberry Pi 2B and a [3.5" touchscreen](http://www.lcdwiki.com/3.5inch_RPi_Display). This case has three parts (base, lid, and stand) that I designed in FreeCAD 0.21.0. The most basic implementation idea is to have a dedicated display for local bus times and weather updates. Ultimately, it would be fun to tie in some sensors running on a Pi Pico W or Pi Zero 2W to report on conditions in the home or lab. Programming notes to follow.
 
+Code details can be found [here.](https://github.com/KynanDelaney/smart_screen)
+
+\
+
 \
 
 All 3D models are interactive.
