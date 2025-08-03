@@ -4,7 +4,7 @@ title: "Coding Projects"
 
 # Identifying individual burying beetles by unique elytral patterns
 
-![Fingerprints extracted from elytral patterns according to different computer vision algorithms.](images/fingerprint_examples_white.svg)
+![*Fingerprints extracted from elytral patterns according to different computer vision algorithms.*](images/fingerprint_examples_white.svg)
 
 \
 
@@ -16,7 +16,7 @@ The repository for this project will be shared soon!
 
 \
 
-![The GUI for my ID-matching pipeline.](images/gui_example.svg)
+![*The GUI for the PlanarID shiny app.*](images/gui_example.svg)
 
 \
 
@@ -28,7 +28,7 @@ This project used a custom built [flightmill](https://kynandelaney.github.io/pra
 
 \
 
-![A characteristic flight activity trace of a burying beetle.](images/speed_plot.svg)
+![*A characteristic flight activity trace of a burying beetle.*](images/speed_plot.svg)
 
 \
 
@@ -44,7 +44,7 @@ Details can be found [here](https://github.com/KynanDelaney/arena-motion-trackin
 
 \
 
-![A characteristic trace of a startle response following disturbance.](images/movement_dashboard.bmp)
+![*A characteristic trace of a startle response following disturbance.*](images/movement_dashboard.bmp)
 
 \
 
@@ -56,7 +56,7 @@ Projects will be added here as related materials are published. Topics currently
 
 \
 
-![A distinctive pattern on the elytra of a beetle captured in 2021](images/beetle.jpeg)
+![*A distinctive pattern on the elytra of a beetle captured in 2021*](images/beetle.jpeg)
 
 \
 
