@@ -3,6 +3,7 @@ title: ""
 output:
   html_document:
     css: styles.css
+    md_extensions: -smart
 ---
 
 \
@@ -15,7 +16,13 @@ This site started as an exercise in using RMarkdown. I also wanted to showcase s
 
 \
 
-My interests in coding and solving invertebrate ecology problems during my PhD culminated in a computer-vision tool for identifying insects in the wild. Details of PlanarID can be found on my [GitHub](https://github.com/KynanDelaney/PlanarID) but I will be adding a set of tutorials and user manuals here soon. 
+<div class="section-row">
+
+<div class="section-column">
+
+## [Coding Projects](coding_projects.html)
+
+My interests in coding and solving invertebrate ecology problems during my PhD culminated in a computer-vision tool for identifying insects in the wild. Details of PlanarID can be found on my <a href="https://github.com/KynanDelaney/PlanarID">GitHub</a>, but I will be adding a set of tutorials and user manuals here soon.
 
 A computer-vision dashboard for measuring startle responses and individual movement in static arenas will soon follow!
 
@@ -27,8 +34,11 @@ A computer-vision dashboard for measuring startle responses and individual movem
   </p>
 </div>
 
-\
+</div>
 
+<div class="section-column">
+
+## [Practical Projects](practical_projects.html)
 More practical solutions to research questions have involved building data-loggers and sensor arrays for recording flight behaviours in small insects. With a Raspberry Pi, magnets, and an abundance of superglue, any problem can be solved! Python scripts and self-hosted PostgreSQL databases for data-logging also help.
 
 <div class="image-panel">
@@ -37,6 +47,10 @@ More practical solutions to research questions have involved building data-logge
   <p class="caption">
     A schematic of a flight mill I built to measure flight performance in burying beetles. Also, a highly effective but confusing wiring setup for 7 flight chambers recording simultaneously.
   </p>
+</div>
+
+</div>
+
 </div>
 
 ------
