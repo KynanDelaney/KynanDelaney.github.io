@@ -1,17 +1,42 @@
 ---
-title: "Kynan Delaney"
+title: ""
+output:
+  html_document:
+    css: styles.css
 ---
 
 \
 
-This site started as an exercise in using RMarkdown. I also wanted to showcase some projects and hobbies that connect to different skills. The result is the present mix of HTML, CSS, RMarkdown, Pagedown, and JavaScript. Included in this site are PDFs, 3D objects, videos and images. Please have a look around! I hope these elements are displayed properly on your device or browser, but if not, know I will be updating this site to improve compatibility over time.\ 
-
-I aim to add R code tutorials and expanded access to GitHub repositories soon. 
+This site started as an exercise in using RMarkdown. I also wanted to showcase some projects and hobbies that I found fun and felt like sharing! The result is the present mix of HTML, CSS, R, and JavaScript. Included in this site are PDFs, 3D objects, videos and images. Please have a look around! I hope these elements are displayed properly on your device or browser, but if not, know I will be updating this site to improve compatibility over time.\ 
 
 \
 
-![Field-work in Corstorphine in 2021.](images/Kynan_pic.jpg)
+![*Field-work in Corstorphine in 2021.*](images/Kynan_pic.jpg)
 
 \
+
+My interests in coding and solving invertebrate ecology problems during my PhD culminated in a computer-vision tool for identifying insects in the wild. Details of PlanarID can be found on my [GitHub](https://github.com/KynanDelaney/PlanarID) but I will be adding a set of tutorials and user manuals here soon. 
+
+A computer-vision dashboard for measuring startle responses and individual movement in static arenas will soon follow!
+
+<div class="image-panel">
+  <img src="images/PlanarID_image_processing.png" alt="PlanarID image processing." />
+  <img src="images/PlanarID_visualise_fingerprint_matching.png" alt="PlanarID fingerprint matching." />
+  <p class="caption">
+    The GUI of PlanarID – an individual recognition Shiny app I made to facilitate my PhD fieldwork.
+  </p>
+</div>
+
+\
+
+More practical solutions to research questions have involved building data-loggers and sensor arrays for recording flight behaviours in small insects. With a Raspberry Pi, magnets, and an abundance of superglue, any problem can be solved! Python scripts and self-hosted PostgreSQL databases for data-logging also help.
+
+<div class="image-panel">
+  <img src="images/flightmill_graphic.svg" alt="Flight mill chamber schematic." />
+  <img src="images/flightmill_wiring.jpeg" alt="7-chamber wiring for flight mill." />
+  <p class="caption">
+    A schematic of a flight mill I built to measure flight performance in burying beetles. Also, a highly effective but confusing wiring setup for 7 flight chambers recording simultaneously.
+  </p>
+</div>
 
 ------

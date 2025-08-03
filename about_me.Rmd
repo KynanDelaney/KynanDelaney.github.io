@@ -1,0 +1,107 @@
+---
+title: ""
+output: 
+  html_document:
+    toc: false
+    css: styles.css
+---
+
+<div class="container">
+
+<div class="content">
+
+\
+
+## Background
+
+---
+
+Former PhD researcher and general Statistics Advisor for undergraduates in Biological Sciences at the University of Edinburgh. Experienced with lab- and field-based ecology research, data preparation, exploration, and analysis. Passionate about teaching, coding, and open science practices.
+
+Full CV available <a href="images/Kynan Delaney CV.pdf" target="_blank">here</a>
+
+\
+
+## Publications
+
+---
+
+[Ravindran, S., et al. (2025)](https://doi.org/10.1093/evlett/qraf021)  
+Persistent maternal age effects on male offspring fitness traits in a wild mammal population. *Evolution Letters*.
+
+[Sutter, A., et al. (2019)](https://doi.org/10.1093/beheco/arz140)  
+Flexible polyandry in female flies is an adaptive response to infertile males. *Behavioral Ecology*.
+
+\
+
+### In Review
+
+Delaney, K.L., et al. (2025)  
+High-volume, computer-aided recognition of small invertebrates with discrete patterning.  
+[Details in GitHub](https://github.com/KynanDelaney/PlanarID)
+
+\
+
+## Communications
+
+---
+
+### Ageing across environments — how burying beetles age in the laboratory and the wild  
+**Talk** — Scottish Ecological Ageing Research Group (SEARG)  
+*Edinburgh, UK. 2024.*
+
+
+### Plasticity of ageing in burying beetles  
+**Talk** — [Darwin Trust](https://biology.ed.ac.uk/darwintrust) Symposium  
+*Edinburgh, UK. 2023.*
+
+
+### Ageing in wild- and lab-living beetles  
+**Talk** — European Meeting for PhD Students in Evolutionary Biology (EMPSEB)  
+*Millport, UK. 2023.*
+
+
+</div>
+
+<div class="skills">
+
+\
+
+## Skills
+
+---
+
+### Coding Languages
+- R, Python, & SQL
+
+\
+
+### Data Processing & Visualisation
+- Tidyverse, flexdashboard, & RMarkdown
+- Shiny for R/Python
+- Computer vision ([OpenCV](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html))
+- PyQt & Dash
+- Postgres & SQLite
+
+\
+
+### Analysis
+- Power analysis & Simulation
+- Machine learning
+- GLMMs, GAMMs, & Time-series
+- Mark-recapture, Bayesian & Frequentist methods
+- Spatial modelling & GIS
+- Computer vision
+
+\
+
+### Technical
+- Academic Writing
+- Teaching & Lecturing
+- Field Data Collection
+- 3D Design, Scanning, & Printing
+- Electronics, Soldering, & Data Loggers
+
+</div>
+
+</div>

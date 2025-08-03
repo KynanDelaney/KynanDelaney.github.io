@@ -13,16 +13,15 @@ library(rgl)
 
 A multi-chambered mill that uses a Raspberry pi configured as a data-logger. This set-up records data from optical sensors that are triggered by the rotation of arms to which burying beetles are mounted. The aim is to monitor the activity of beetles mounted in each chamber for several hours at a time.
 
-``` {=html}
+```{=html}
 <video controls loop muted>
   <source src="images/flightmill_video.webm" type="video/webm">
 Your browser does not support the video tag.
 </video>
 ```
-
 \
 
-------
+------------------------------------------------------------------------
 
 \
 
@@ -53,7 +52,7 @@ rglwidget()
 
 \
 
-------
+------------------------------------------------------------------------
 
 \
 
@@ -76,10 +75,9 @@ rglwidget()
 
 \
 
-------
+------------------------------------------------------------------------
 
 \
-
 
 # Wind-tunnel case for Pi Zero
 
@@ -98,13 +96,11 @@ bg3d("lightgrey")  # set background as grey, makes manipulating object easier
 rglwidget()
 ```
 
-
 \
 
-------
+------------------------------------------------------------------------
 
 \
-
 
 # Coffee Grinder Stand
 
@@ -122,4 +118,3 @@ bg3d("lightgrey")  # set background as grey, makes manipulating object easier
 
 rglwidget()
 ```
-
