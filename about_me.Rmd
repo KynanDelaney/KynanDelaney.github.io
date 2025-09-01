@@ -36,9 +36,13 @@ Flexible polyandry in female flies is an adaptive response to infertile males. *
 
 ### In Review
 
-Delaney, K.L., et al. (2025)  
+**Delaney, K.L.**, *et al*. (2025)  
 High-volume, computer-aided recognition of small invertebrates with discrete patterning.  
 [Details in GitHub](https://github.com/KynanDelaney/PlanarID)
+
+
+**Delaney, K. L.** & Moorad, J. (2025)
+Maternal care reduces adult survival through body size-mediated trade-offs in a burying beetle
 
 \
 
