@@ -26,6 +26,10 @@ Full CV available <a href="images/Kynan Delaney CV.pdf" target="_blank">here</a>
 
 ---
 
+[**Delaney, K.L.**, Delaney, E., Moorad, J. (2026)](https://doi.org/10.1002/2688-8319.70190)
+High-throughput recognition of small invertebrates via computer vision. *Ecological Solutions & Evidence*.
+[Details in GitHub](https://github.com/KynanDelaney/PlanarID)
+
 [Ravindran, S., et al. (2025)](https://doi.org/10.1093/evlett/qraf021)  
 Persistent maternal age effects on male offspring fitness traits in a wild mammal population. *Evolution Letters*.
 
@@ -34,14 +38,9 @@ Flexible polyandry in female flies is an adaptive response to infertile males. *
 
 \
 
-### In Review
+### In Preparation
 
-**Delaney, K.L.**, *et al*. (2025)  
-High-volume, computer-aided recognition of small invertebrates with discrete patterning.  
-[Details in GitHub](https://github.com/KynanDelaney/PlanarID)
-
-
-**Delaney, K. L.** & Moorad, J. (2025)
+**Delaney, K. L.** & Moorad, J. (2026)
 Maternal care reduces adult survival through body size-mediated trade-offs in a burying beetle
 
 \
